@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-28",
+  "selectors": {
+    "bubble": [
+      "div.message-in",
+      "div.message-out",
+      "[data-testid='msg-container']"
+    ],
+    "text": [
+      "span.selectable-text",
+      "[data-testid='selectable-text']",
+      "div.copyable-text span[dir='auto']",
+      "div.copyable-text span[dir='ltr']"
+    ],
+    "copyable": [
+      "div.copyable-text",
+      "[data-testid='copyable-text']"
+    ],
+    "excluded": [
+      ".quoted-message",
+      "[class*='quoted-']",
+      "[data-testid='quoted-message']",
+      "[class*='link-preview']",
+      "[class*='link_preview']",
+      "[data-testid='link-preview']",
+      "[class*='media-container']",
+      "[class*='thumbnail']"
+    ],
+    "chatContainer": [
+      "#main",
+      "[data-testid='conversation-panel']"
+    ],
+    "ownMessage": [
+      ".message-out"
+    ]
+  }
+}
